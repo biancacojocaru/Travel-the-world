@@ -1,0 +1,106 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #2b2b2b;
+  color: rgb(214, 214, 214);
+  margin: 0 auto;
+}
+
+.search-wrapper {
+  height: 500px;
+  background: url('../assets/shutterstock_707735803.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.countries{
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-item: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px;
+}
+
+.options{
+  gap: 15px;
+  position: absolute;
+  left: 170px;
+  width: 400px;
+  bottom: 250px;
+}
+
+#italy{
+  height: 200px;
+  width: 200px;
+  background: url('../assets/download\ \(1\).jpg') no-repeat;
+  background-size: cover;
+}
+
+#japan{
+  height: 200px;
+  width: 200px;
+  background: url('../assets/download\ \(2\).jpg') no-repeat;
+  background-size: cover;
+}
+
+#america{
+  height: 200px;
+  width: 200px;
+  background: url('../assets/usa-best-places-new-york.jpg') no-repeat;
+  background-size: cover;
+}
+
+#africa{
+  height: 200px;
+  width: 200px;
+  background: url('../assets/download\ \(3\).jpg') no-repeat;
+  background-size: cover;
+}
+ 
+ #navigation{
+  width: 100%;
+  background-color: #b5d8bb;
+  margin-top: 25px;
+  text-align: right;
+  height: 45px;
+  position: relative;
+}
+
+.link-nav {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: red;
+  color: black;
+  text-decoration: none;
+}
+
+.link-nav:hover {
+  background-color: #387a44;
+}
+
+
+.logo {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.firm {
+  background-color: #829d87;
+  margin: 0 auto;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+p {
+  font-size: 22px;
+}
